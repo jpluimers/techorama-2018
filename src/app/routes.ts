@@ -9,6 +9,7 @@ import {slide12fetch} from '../../examples/slide-12-fetch';
 import {slide13fetch} from '../../examples/slide-13-fetch';
 import {slide14fetch} from '../../examples/slide-14-fetch';
 import {slide20pitfalls} from '../../examples/slide-20-pitfalls';
+import {slide22pitfalls} from '../../examples/slide-22-pitfalls';
 
 export const routes: Routes = [
   {path: 'slide-0-empty', component: ExampleComponent, data: {fn: slide0empty}},
@@ -19,5 +20,6 @@ export const routes: Routes = [
   {path: 'slide-12-fetch', component: ExampleComponent, data: {fn: slide12fetch}},
   {path: 'slide-13-fetch', component: ExampleComponent, data: {fn: slide13fetch}},
   {path: 'slide-14-fetch', component: ExampleComponent, data: {fn: slide14fetch}},
-  {path: 'slide-20-pitfalls', component: ExampleComponent, data: {fn: slide20pitfalls}}
+  {path: 'slide-20-pitfalls', component: ExampleComponent, data: {fn: slide20pitfalls}},
+  {path: 'slide-22-pitfalls', component: ExampleComponent, data: {fn: slide22pitfalls}}
 ];
