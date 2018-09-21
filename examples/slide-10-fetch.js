@@ -1,4 +1,4 @@
-import {authHeaders} from "../src/app/auth-headers";
+import {authHeaders} from "./helpers/auth-headers";
 
 export function slide10fetch() {
 

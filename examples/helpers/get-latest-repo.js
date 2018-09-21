@@ -1,4 +1,4 @@
-import {authHeaders} from "../../src/app/auth-headers";
+import {authHeaders} from "./auth-headers";
 
 export async function getLatestRepo(user) {
 
