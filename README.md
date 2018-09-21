@@ -1,27 +1,25 @@
 # Techorama
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+This project contains sample code for my presentation at Techorama 2018.
 
-## Development server
+[handling asynchronicity in Javascript in 2018](http://sched.co/FhIf)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Prerequisites
 
-## Code scaffolding
+To run the project you must have npm installed.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installing
 
-## Build
+In the root folder of the project, type `npm install`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Running
 
-## Running unit tests
+To run the project, type `npm start`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Browse to localhost:4200. You will see a list of all code examples. 
+Click one to run it. Open your browser's JavaScript console to see its output.
 
-## Running end-to-end tests
+## Coding
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+All examples can be found under the folder 'examples'.
+If you change the code, the browser will reload your page.
