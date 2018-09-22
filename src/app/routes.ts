@@ -24,6 +24,8 @@ import {slide56switchmap} from '../../examples/slide-56-switchmap';
 import {slide57exhaustmap} from '../../examples/slide-57-exhaustmap';
 import {slide59cold} from '../../examples/slide-59-cold';
 import {slide60hot} from '../../examples/slide-60-hot';
+import {slide61share} from '../../examples/slide-61-share';
+import {slide62sharereplay} from '../../examples/slide-62-sharereplay';
 import {slide99together} from '../../examples/slide-99-together';
 
 export const routes: Routes = [
@@ -51,5 +53,7 @@ export const routes: Routes = [
   {path: 'slide-57-exhaustmap', component: ExampleComponent, data: {fn: slide57exhaustmap}},
   {path: 'slide-59-cold', component: ExampleComponent, data: {fn: slide59cold}},
   {path: 'slide-60-hot', component: ExampleComponent, data: {fn: slide60hot}},
+  {path: 'slide-61-share', component: ExampleComponent, data: {fn: slide61share}},
+  {path: 'slide-62-sharereplay', component: ExampleComponent, data: {fn: slide62sharereplay}},
   {path: 'slide-99-together', component: ExampleComponent, data: {fn: slide99together}}
 ];
