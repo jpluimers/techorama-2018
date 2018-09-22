@@ -14,6 +14,13 @@ import {slide28bonus} from '../../examples/slide-28-bonus';
 import {slide31observables} from '../../examples/slide-31-observables';
 import {slide34observables} from '../../examples/slide-34-observables';
 import {slide42map} from '../../examples/slide-42-map';
+import {slide50flatmap} from '../../examples/slide-50-flatmap';
+import {slide51switchmap} from '../../examples/slide-51-switchmap';
+import {slide52flatmaps} from '../../examples/slide-52-flatmaps';
+import {slide54mergemap} from '../../examples/slide-54-mergemap';
+import {slide55concatmap} from '../../examples/slide-55-concatmap';
+import {slide56switchmap} from '../../examples/slide-56-switchmap';
+import {slide57exhaustmap} from '../../examples/slide-57-exhaustmap';
 import {slide99together} from '../../examples/slide-99-together';
 
 export const routes: Routes = [
@@ -31,5 +38,12 @@ export const routes: Routes = [
   {path: 'slide-31-observables', component: ExampleComponent, data: {fn: slide31observables}},
   {path: 'slide-34-observables', component: ExampleComponent, data: {fn: slide34observables}},
   {path: 'slide-42-map', component: ExampleComponent, data: {fn: slide42map}},
+  {path: 'slide-50-flatmap', component: ExampleComponent, data: {fn: slide50flatmap}},
+  {path: 'slide-51-switchmap', component: ExampleComponent, data: {fn: slide51switchmap}},
+  {path: 'slide-52-flatmaps', component: ExampleComponent, data: {fn: slide52flatmaps}},
+  {path: 'slide-54-mergemap', component: ExampleComponent, data: {fn: slide54mergemap}},
+  {path: 'slide-55-concatmap', component: ExampleComponent, data: {fn: slide55concatmap}},
+  {path: 'slide-56-switchmap', component: ExampleComponent, data: {fn: slide56switchmap}},
+  {path: 'slide-57-exhaustmap', component: ExampleComponent, data: {fn: slide57exhaustmap}},
   {path: 'slide-99-together', component: ExampleComponent, data: {fn: slide99together}}
 ];

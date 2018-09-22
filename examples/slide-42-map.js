@@ -1,6 +1,6 @@
 import {map} from 'rxjs/operators';
 
-export async function slide42map(httpClient) {
+export function slide42map(httpClient) {
 
   const endpointUrl =
     'https://api.github.com/users/mvollebregt/repos?sort=pushed';

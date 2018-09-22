@@ -1,4 +1,4 @@
-export async function slide31observables(httpClient) {
+export function slide31observables(httpClient) {
 
   const endpointUrl =
     'https://api.github.com/users/mvollebregt/repos?sort=pushed';
