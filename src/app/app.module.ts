@@ -7,12 +7,14 @@ import {RouterModule} from '@angular/router';
 import {IndexComponent} from './index/index.component';
 import {routes} from './routes';
 import {ExampleComponent} from './example/example.component';
+import {ExampleInputComponent} from './example/example-input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    ExampleComponent
+    ExampleComponent,
+    ExampleInputComponent
   ],
   imports: [
     BrowserModule,
