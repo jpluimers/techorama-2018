@@ -32,6 +32,7 @@ import {slide61share} from '../../examples/slide-61-share';
 import {slide62sharereplay} from '../../examples/slide-62-sharereplay';
 import {slide63topromise} from '../../examples/slide-63-topromise';
 import {slide99together} from '../../examples/slide-99-together';
+import {slide999empty} from '../../examples/slide-999-empty';
 
 export const routes: Routes = [
   {path: 'slide-0-empty', component: ExampleComponent, data: {fn: slide0empty}},
@@ -64,5 +65,6 @@ export const routes: Routes = [
   {path: 'slide-61-share', component: ExampleComponent, data: {fn: slide61share}},
   {path: 'slide-62-sharereplay', component: ExampleComponent, data: {fn: slide62sharereplay}},
   {path: 'slide-63-topromise', component: ExampleComponent, data: {fn: slide63topromise}},
-  {path: 'slide-99-together', component: ExampleComponent, data: {fn: slide99together}}
+  {path: 'slide-99-together', component: ExampleComponent, data: {fn: slide99together}},
+  {path: 'slide-999-empty', component: ExampleInputComponent, data: {fn: slide999empty}}
 ];

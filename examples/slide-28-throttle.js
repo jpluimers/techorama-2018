@@ -2,7 +2,7 @@ import {fromEvent} from "rxjs";
 import {debounceTime} from "rxjs/operators";
 
 
-export async function slide28throttle(input) {
+export function slide28throttle(input) {
 
   const DEBOUNCE_TIME = 500;
 
